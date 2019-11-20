@@ -62,7 +62,8 @@ class Bingo{
     }
 
 };
-int main(){
+int main() // main() func
+{
 
     int i,op;
     Bingo b2;
@@ -89,7 +90,8 @@ int main(){
 
     return 0;
 }
-bool Bingo::isExists(int x[][5],int key){
+bool Bingo::isExists(int x[][5],int key)  //functtion
+{
     int i,j,count=0;
      for(i=0;i<5;i++)
        for(j=0;j<5;j++)
